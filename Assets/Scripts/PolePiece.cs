@@ -13,6 +13,7 @@ public class PolePiece {
 		goMesh = Globals.getMeshCloseToBone (goBone.transform.position);
 		visualGoMaterial = new Material (Shader.Find("Legacy Shaders/Specular"));
 		goMesh.GetComponent<Renderer> ().material = visualGoMaterial;
+		goMesh.GetComponent<SkinnedMeshRenderer> ().rootBone = goBone.transform;
 	}
 
 	public float addHeat(float toAdd){
