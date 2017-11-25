@@ -7,7 +7,6 @@ public class Main : MonoBehaviour
 {
     public static Main instance = null;
     private LevelManager levelScript;
-    private int level = -1;
     public GameObject boneMother = null;
     private ArrayList bones = new ArrayList();
 
@@ -19,23 +18,6 @@ public class Main : MonoBehaviour
             Destroy(gameObject);
 
         DontDestroyOnLoad(gameObject);
-        levelScript = GetComponent<LevelManager>();
-        LoadNextLevel();
-    }
-
-    public void LoadNextLevel() {
-        level++;
-        levelScript.SetupScene(level);
-    }
-
-    public void LoadPreviousLevel()
-    {
-        level--;
-        levelScript.SetupScene(level);
-    }
-
-    public void InitiateCheck() {
-        levelScript.StartMovingPlane();
     }
 
     public void GameOver() {

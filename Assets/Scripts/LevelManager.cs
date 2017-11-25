@@ -11,6 +11,7 @@ public class LevelManager : MonoBehaviour {
     public GameObject level4;
     public GameObject level5;
     private Main main;
+    public int level;
 
     List<GameObject> levels;
 
@@ -18,17 +19,26 @@ public class LevelManager : MonoBehaviour {
 
     void Start() {
         main = FindObjectOfType(typeof(Main)) as Main;
+        Globals.self.state.Load();
+        level = Globals.self.state.maxLevel;
+        SetupScene();
     }
 
     void Update() {
         //Level completed
         if (clone.transform.position.z < -0.2f) {
             //Do stuff
-            main.LoadNextLevel();
+            if (level == Globals.self.state.maxLevel) {
+                Globals.self.state.maxLevel++;
+                Globals.self.state.Save();
+            }
+            
+            level++;
+            SetupScene();
         }  
     }
 
-    public void SetupScene(int level) {
+    public void SetupScene() {
         DestoryClones();
         levels = new List<GameObject>() { level1, level2, level3, level4, level5 };
 
