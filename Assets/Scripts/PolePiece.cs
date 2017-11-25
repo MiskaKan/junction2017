@@ -15,8 +15,9 @@ public class PolePiece {
 		goMesh.GetComponent<Renderer> ().material = visualGoMaterial;
 		goMesh.GetComponent<SkinnedMeshRenderer> ().rootBone = goBone.transform;
 
-		GameObject tmpBox = GameObject.CreatePrimitive(PrimitiveType.Cube);
 		var boxCollider = goBone.AddComponent<BoxCollider>();
+		var rigidBody = goBone.AddComponent<Rigidbody>();
+		rigidBody.useGravity = false;
 		boxCollider.center = Vector3.zero;
 		boxCollider.size = new Vector3 (0.2f, 0.2f, 0.2f);
 		boxCollider.isTrigger = true;

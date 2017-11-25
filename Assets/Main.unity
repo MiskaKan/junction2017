@@ -121,7 +121,6 @@ GameObject:
   m_Component:
   - component: {fileID: 19183954}
   - component: {fileID: 19183955}
-  - component: {fileID: 19183957}
   m_Layer: 0
   m_Name: Cylinder_048
   m_TagString: Player
@@ -255,21 +254,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -6.580909, y: 0.0000008940697, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &19183957
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 19183953}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &21509394
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +263,6 @@ GameObject:
   m_Component:
   - component: {fileID: 21509395}
   - component: {fileID: 21509396}
-  - component: {fileID: 21509398}
   m_Layer: 0
   m_Name: Cylinder_005
   m_TagString: Player
@@ -413,21 +396,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.36878905, y: 0.000000052154064, z: -0.00079999864}
     m_Extent: {x: 0.07575813, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &21509398
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 21509394}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &25500699
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +621,6 @@ GameObject:
   m_Component:
   - component: {fileID: 153713971}
   - component: {fileID: 153713972}
-  - component: {fileID: 153713974}
   m_Layer: 0
   m_Name: Cylinder_019
   m_TagString: Player
@@ -787,21 +754,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -2.0354562, y: 0.00000027567148, z: -0.00079999864}
     m_Extent: {x: 0.0757581, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &153713974
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 153713970}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &166009878
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,7 +907,6 @@ GameObject:
   m_Component:
   - component: {fileID: 194522080}
   - component: {fileID: 194522081}
-  - component: {fileID: 194522083}
   m_Layer: 0
   m_Name: Cylinder_053
   m_TagString: Player
@@ -1089,21 +1040,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -7.3384857, y: 0.0000009909272, z: -0.00079999864}
     m_Extent: {x: 0.075758934, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &194522083
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 194522079}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &229157922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,7 +1049,6 @@ GameObject:
   m_Component:
   - component: {fileID: 229157923}
   - component: {fileID: 229157924}
-  - component: {fileID: 229157926}
   m_Layer: 0
   m_Name: Cylinder_045
   m_TagString: Player
@@ -1247,21 +1182,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -6.1263647, y: 0.00000083073974, z: -0.00079999864}
     m_Extent: {x: 0.07575846, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &229157926
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 229157922}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &230961802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,7 +1220,6 @@ GameObject:
   m_Component:
   - component: {fileID: 242887461}
   - component: {fileID: 242887462}
-  - component: {fileID: 242887464}
   m_Layer: 0
   m_Name: Cylinder_023
   m_TagString: Player
@@ -1434,21 +1353,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -2.6415162, y: 0.00000035762787, z: -0.00079999864}
     m_Extent: {x: 0.0757581, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &242887464
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 242887460}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &265744637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,7 +1362,6 @@ GameObject:
   m_Component:
   - component: {fileID: 265744638}
   - component: {fileID: 265744639}
-  - component: {fileID: 265744641}
   m_Layer: 0
   m_Name: Cylinder_006
   m_TagString: Player
@@ -1592,21 +1495,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.5203037, y: 0.000000067055225, z: -0.00079999864}
     m_Extent: {x: 0.07575813, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &265744641
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 265744637}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &270362922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,7 +1591,6 @@ GameObject:
   m_Component:
   - component: {fileID: 298879282}
   - component: {fileID: 298879283}
-  - component: {fileID: 298879285}
   m_Layer: 0
   m_Name: Cylinder_068
   m_TagString: Player
@@ -1837,21 +1724,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -9.611214, y: 0.0000013001263, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &298879285
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 298879281}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &315180998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,7 +1733,6 @@ GameObject:
   m_Component:
   - component: {fileID: 315180999}
   - component: {fileID: 315181000}
-  - component: {fileID: 315181002}
   m_Layer: 0
   m_Name: Cylinder_014
   m_TagString: Player
@@ -1995,21 +1866,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -1.277879, y: 0.00000017508864, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &315181002
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 315180998}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &365959229
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,7 +1875,6 @@ GameObject:
   m_Component:
   - component: {fileID: 365959230}
   - component: {fileID: 365959231}
-  - component: {fileID: 365959233}
   m_Layer: 0
   m_Name: Cylinder_026
   m_TagString: Player
@@ -2153,21 +2008,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.0960615, y: 0.0000004172325, z: -0.00079999864}
     m_Extent: {x: 0.075758934, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &365959233
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 365959229}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &376815766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2177,7 +2017,6 @@ GameObject:
   m_Component:
   - component: {fileID: 376815767}
   - component: {fileID: 376815768}
-  - component: {fileID: 376815770}
   m_Layer: 0
   m_Name: Cylinder_027
   m_TagString: Player
@@ -2311,21 +2150,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.2475767, y: 0.00000043958426, z: -0.00079999864}
     m_Extent: {x: 0.0757581, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &376815770
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 376815766}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &382372821
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,7 +2159,6 @@ GameObject:
   m_Component:
   - component: {fileID: 382372822}
   - component: {fileID: 382372823}
-  - component: {fileID: 382372825}
   m_Layer: 0
   m_Name: Cylinder_002
   m_TagString: Player
@@ -2469,21 +2292,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -4.3081827, y: 0.0000005811453, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &382372825
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 382372821}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &389705641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2522,7 +2330,6 @@ GameObject:
   m_Component:
   - component: {fileID: 414879418}
   - component: {fileID: 414879419}
-  - component: {fileID: 414879421}
   m_Layer: 0
   m_Name: Cylinder_062
   m_TagString: Player
@@ -2656,21 +2463,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -8.702122, y: 0.0000011771917, z: -0.00079999864}
     m_Extent: {x: 0.0757575, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &414879421
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 414879417}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &427372650
 GameObject:
   m_ObjectHideFlags: 0
@@ -2709,7 +2501,6 @@ GameObject:
   m_Component:
   - component: {fileID: 429517681}
   - component: {fileID: 429517682}
-  - component: {fileID: 429517684}
   m_Layer: 0
   m_Name: Cylinder_054
   m_TagString: Player
@@ -2843,21 +2634,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -7.49, y: 0.000001013279, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &429517684
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 429517680}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &454107228
 GameObject:
   m_ObjectHideFlags: 0
@@ -2867,7 +2643,6 @@ GameObject:
   m_Component:
   - component: {fileID: 454107229}
   - component: {fileID: 454107230}
-  - component: {fileID: 454107232}
   m_Layer: 0
   m_Name: Cylinder_057
   m_TagString: Player
@@ -3001,21 +2776,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -7.9445457, y: 0.0000010728836, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &454107232
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 454107228}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &467063716
 GameObject:
   m_ObjectHideFlags: 0
@@ -6432,7 +6192,6 @@ GameObject:
   m_Component:
   - component: {fileID: 469682983}
   - component: {fileID: 469682984}
-  - component: {fileID: 469682986}
   m_Layer: 0
   m_Name: Cylinder_022
   m_TagString: Player
@@ -6566,21 +6325,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -2.4900014, y: 0.00000033900142, z: -0.00079999864}
     m_Extent: {x: 0.07575822, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &469682986
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 469682982}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &475043630
 GameObject:
   m_ObjectHideFlags: 0
@@ -6833,7 +6577,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 501302156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 696, y: 464, z: 0}
+  m_LocalPosition: {x: 696, y: 391.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 112344089}
@@ -6912,7 +6656,6 @@ GameObject:
   m_Component:
   - component: {fileID: 564959914}
   - component: {fileID: 564959915}
-  - component: {fileID: 564959917}
   m_Layer: 0
   m_Name: Cylinder_069
   m_TagString: Player
@@ -7046,21 +6789,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -9.762729, y: 0.000001322478, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &564959917
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 564959913}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &582306032
 GameObject:
   m_ObjectHideFlags: 0
@@ -7099,7 +6827,6 @@ GameObject:
   m_Component:
   - component: {fileID: 590059803}
   - component: {fileID: 590059804}
-  - component: {fileID: 590059806}
   m_Layer: 0
   m_Name: Cylinder_049
   m_TagString: Player
@@ -7233,21 +6960,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -6.7324247, y: 0.0000009126961, z: -0.00079999864}
     m_Extent: {x: 0.07575822, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &590059806
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 590059802}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &605471417
 GameObject:
   m_ObjectHideFlags: 0
@@ -7315,7 +7027,6 @@ GameObject:
   m_Component:
   - component: {fileID: 609291207}
   - component: {fileID: 609291208}
-  - component: {fileID: 609291210}
   m_Layer: 0
   m_Name: Cylinder_037
   m_TagString: Player
@@ -7449,21 +7160,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -4.9142427, y: 0.0000006593764, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &609291210
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 609291206}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &622030435
 GameObject:
   m_ObjectHideFlags: 0
@@ -7473,7 +7169,6 @@ GameObject:
   m_Component:
   - component: {fileID: 622030436}
   - component: {fileID: 622030437}
-  - component: {fileID: 622030439}
   m_Layer: 0
   m_Name: Cylinder_058
   m_TagString: Player
@@ -7607,21 +7302,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -8.096061, y: 0.0000010952353, z: -0.00079999864}
     m_Extent: {x: 0.075758934, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &622030439
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 622030435}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &625947415
 GameObject:
   m_ObjectHideFlags: 0
@@ -7631,7 +7311,6 @@ GameObject:
   m_Component:
   - component: {fileID: 625947416}
   - component: {fileID: 625947417}
-  - component: {fileID: 625947419}
   m_Layer: 0
   m_Name: Cylinder_042
   m_TagString: Player
@@ -7765,21 +7444,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -5.6718183, y: 0.0000007674098, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &625947419
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 625947415}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &626499155
 GameObject:
   m_ObjectHideFlags: 0
@@ -7847,7 +7511,6 @@ GameObject:
   m_Component:
   - component: {fileID: 656454056}
   - component: {fileID: 656454057}
-  - component: {fileID: 656454059}
   m_Layer: 0
   m_Name: Cylinder_052
   m_TagString: Player
@@ -7981,21 +7644,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -7.1869698, y: 0.0000009685755, z: -0.00079999864}
     m_Extent: {x: 0.07575822, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &656454059
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 656454055}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &667412893
 GameObject:
   m_ObjectHideFlags: 0
@@ -8005,7 +7653,6 @@ GameObject:
   m_Component:
   - component: {fileID: 667412894}
   - component: {fileID: 667412895}
-  - component: {fileID: 667412897}
   m_Layer: 0
   m_Name: Cylinder_055
   m_TagString: Player
@@ -8139,21 +7786,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -7.6415157, y: 0.0000010356307, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &667412897
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 667412893}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &667890557
 GameObject:
   m_ObjectHideFlags: 0
@@ -8163,7 +7795,6 @@ GameObject:
   m_Component:
   - component: {fileID: 667890558}
   - component: {fileID: 667890559}
-  - component: {fileID: 667890561}
   m_Layer: 0
   m_Name: Cylinder_047
   m_TagString: Player
@@ -8297,21 +7928,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -6.4293942, y: 0.00000086799264, z: -0.00079999864}
     m_Extent: {x: 0.075758934, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &667890561
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 667890557}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &687978370
 GameObject:
   m_ObjectHideFlags: 0
@@ -8441,7 +8057,6 @@ GameObject:
   m_Component:
   - component: {fileID: 702706424}
   - component: {fileID: 702706425}
-  - component: {fileID: 702706427}
   m_Layer: 0
   m_Name: Cylinder_044
   m_TagString: Player
@@ -8575,21 +8190,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -5.9748487, y: 0.0000008121133, z: -0.00079999864}
     m_Extent: {x: 0.07575941, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &702706427
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 702706423}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &739138802
 GameObject:
   m_ObjectHideFlags: 0
@@ -8686,7 +8286,6 @@ GameObject:
   m_Component:
   - component: {fileID: 767640166}
   - component: {fileID: 767640167}
-  - component: {fileID: 767640169}
   m_Layer: 0
   m_Name: Cylinder_067
   m_TagString: Player
@@ -8820,21 +8419,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -9.459698, y: 0.0000012777746, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &767640169
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 767640165}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &768866291
 GameObject:
   m_ObjectHideFlags: 0
@@ -8844,7 +8428,6 @@ GameObject:
   m_Component:
   - component: {fileID: 768866292}
   - component: {fileID: 768866293}
-  - component: {fileID: 768866295}
   m_Layer: 0
   m_Name: Cylinder_016
   m_TagString: Player
@@ -8978,21 +8561,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -1.5809102, y: 0.00000021606684, z: -0.00079999864}
     m_Extent: {x: 0.07575816, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &768866295
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 768866291}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &783873219
 GameObject:
   m_ObjectHideFlags: 0
@@ -9092,7 +8660,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5073cdc4611c94914bd8e41ef5bc6393, type: 3}
       propertyPath: m_LocalScale.z
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5073cdc4611c94914bd8e41ef5bc6393, type: 3}
       propertyPath: m_IsActive
@@ -9154,7 +8722,6 @@ GameObject:
   m_Component:
   - component: {fileID: 832873708}
   - component: {fileID: 832873709}
-  - component: {fileID: 832873711}
   m_Layer: 0
   m_Name: Cylinder_011
   m_TagString: Player
@@ -9288,21 +8855,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.82333463, y: 0.00000011175871, z: -0.00079999864}
     m_Extent: {x: 0.07575804, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &832873711
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 832873707}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &853321737
 GameObject:
   m_ObjectHideFlags: 0
@@ -9341,7 +8893,6 @@ GameObject:
   m_Component:
   - component: {fileID: 854272652}
   - component: {fileID: 854272653}
-  - component: {fileID: 854272655}
   m_Layer: 0
   m_Name: Cylinder_028
   m_TagString: Player
@@ -9475,21 +9026,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.3990922, y: 0.000000461936, z: -0.00079999864}
     m_Extent: {x: 0.075758815, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &854272655
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 854272651}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &867644180
 GameObject:
   m_ObjectHideFlags: 0
@@ -9528,7 +9064,6 @@ GameObject:
   m_Component:
   - component: {fileID: 889058441}
   - component: {fileID: 889058442}
-  - component: {fileID: 889058444}
   m_Layer: 0
   m_Name: Cylinder_066
   m_TagString: Player
@@ -9662,21 +9197,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -9.308182, y: 0.0000012591481, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &889058444
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 889058440}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &906408985
 GameObject:
   m_ObjectHideFlags: 0
@@ -9686,7 +9206,6 @@ GameObject:
   m_Component:
   - component: {fileID: 906408986}
   - component: {fileID: 906408987}
-  - component: {fileID: 906408989}
   m_Layer: 0
   m_Name: Cylinder_030
   m_TagString: Player
@@ -9820,21 +9339,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.7021227, y: 0.0000004991889, z: -0.00079999864}
     m_Extent: {x: 0.0757581, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &906408989
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 906408985}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &907674123
 GameObject:
   m_ObjectHideFlags: 0
@@ -9873,7 +9377,6 @@ GameObject:
   m_Component:
   - component: {fileID: 917715989}
   - component: {fileID: 917715990}
-  - component: {fileID: 917715992}
   m_Layer: 0
   m_Name: Cylinder_024
   m_TagString: Player
@@ -10007,21 +9510,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -2.7930317, y: 0.0000003799796, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &917715992
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 917715988}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &975607157
 GameObject:
   m_ObjectHideFlags: 0
@@ -10060,7 +9548,6 @@ GameObject:
   m_Component:
   - component: {fileID: 999395799}
   - component: {fileID: 999395800}
-  - component: {fileID: 999395802}
   m_Layer: 0
   m_Name: Cylinder_038
   m_TagString: Player
@@ -10194,21 +9681,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -5.0657587, y: 0.0000006854534, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &999395802
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 999395798}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1014385873
 GameObject:
   m_ObjectHideFlags: 0
@@ -10218,7 +9690,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1014385874}
   - component: {fileID: 1014385875}
-  - component: {fileID: 1014385877}
   m_Layer: 0
   m_Name: Cylinder_009
   m_TagString: Player
@@ -10352,21 +9823,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.97484934, y: 0.00000013411045, z: -0.00079999864}
     m_Extent: {x: 0.07575822, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1014385877
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1014385873}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1040379694
 GameObject:
   m_ObjectHideFlags: 0
@@ -10405,7 +9861,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1060319200}
   - component: {fileID: 1060319201}
-  - component: {fileID: 1060319203}
   m_Layer: 0
   m_Name: Cylinder_051
   m_TagString: Player
@@ -10539,21 +9994,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -7.0354548, y: 0.00000094622374, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1060319203
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1060319199}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1068162033
 GameObject:
   m_ObjectHideFlags: 0
@@ -10632,6 +10072,7 @@ MonoBehaviour:
   level3: {fileID: 808835715}
   level4: {fileID: 1803631405}
   level5: {fileID: 2121041256}
+  level: 0
 --- !u!1 &1077577247
 GameObject:
   m_ObjectHideFlags: 0
@@ -10699,7 +10140,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1088586514}
   - component: {fileID: 1088586515}
-  - component: {fileID: 1088586517}
   m_Layer: 0
   m_Name: Cylinder_032
   m_TagString: Player
@@ -10833,21 +10273,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -4.0051527, y: 0.0000005438924, z: -0.00079999864}
     m_Extent: {x: 0.075758815, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1088586517
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1088586513}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1127775202
 GameObject:
   m_ObjectHideFlags: 0
@@ -10857,7 +10282,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1127775203}
   - component: {fileID: 1127775204}
-  - component: {fileID: 1127775206}
   m_Layer: 0
   m_Name: Cylinder_063
   m_TagString: Player
@@ -10991,21 +10415,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -8.853638, y: 0.0000011995435, z: -0.00079999864}
     m_Extent: {x: 0.075758934, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1127775206
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1127775202}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1138405299
 GameObject:
   m_ObjectHideFlags: 0
@@ -11240,7 +10649,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1231863573}
   - component: {fileID: 1231863574}
-  - component: {fileID: 1231863576}
   m_Layer: 0
   m_Name: Cylinder_056
   m_TagString: Player
@@ -11374,21 +10782,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -7.7930307, y: 0.0000010542572, z: -0.00079999864}
     m_Extent: {x: 0.07575822, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1231863576
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1231863572}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1001 &1249041122
 Prefab:
   m_ObjectHideFlags: 0
@@ -11497,7 +10890,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1303108250}
   - component: {fileID: 1303108251}
-  - component: {fileID: 1303108253}
   m_Layer: 0
   m_Name: Cylinder_035
   m_TagString: Player
@@ -11631,21 +11023,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -4.6112127, y: 0.00000062584877, z: -0.00079999864}
     m_Extent: {x: 0.075758934, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1303108253
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1303108249}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1357446175
 GameObject:
   m_ObjectHideFlags: 0
@@ -11655,7 +11032,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1357446176}
   - component: {fileID: 1357446177}
-  - component: {fileID: 1357446179}
   m_Layer: 0
   m_Name: Cylinder_012
   m_TagString: Player
@@ -11789,21 +11165,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.97484934, y: 0.00000013411045, z: -0.00079999864}
     m_Extent: {x: 0.07575822, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1357446179
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1357446175}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1359229283
 GameObject:
   m_ObjectHideFlags: 0
@@ -11813,7 +11174,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1359229284}
   - component: {fileID: 1359229285}
-  - component: {fileID: 1359229287}
   m_Layer: 0
   m_Name: Cylinder_017
   m_TagString: Player
@@ -11947,21 +11307,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -1.7324252, y: 0.00000023841858, z: -0.00079999864}
     m_Extent: {x: 0.07575816, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1359229287
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1359229283}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1361627613
 GameObject:
   m_ObjectHideFlags: 0
@@ -12029,7 +11374,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1401878151}
   - component: {fileID: 1401878152}
-  - component: {fileID: 1401878154}
   m_Layer: 0
   m_Name: Cylinder_031
   m_TagString: Player
@@ -12163,21 +11507,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.853638, y: 0.00000052154064, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1401878154
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1401878150}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1433642338
 GameObject:
   m_ObjectHideFlags: 0
@@ -12326,7 +11655,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1453377127}
   - component: {fileID: 1453377128}
-  - component: {fileID: 1453377130}
   m_Layer: 0
   m_Name: Cylinder_033
   m_TagString: Player
@@ -12460,21 +11788,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -4.1566677, y: 0.00000056251884, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1453377130
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1453377126}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1456820167
 GameObject:
   m_ObjectHideFlags: 0
@@ -12484,7 +11797,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1456820168}
   - component: {fileID: 1456820169}
-  - component: {fileID: 1456820171}
   m_Layer: 0
   m_Name: Cylinder_020
   m_TagString: Player
@@ -12618,21 +11930,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -2.1869707, y: 0.00000029429793, z: -0.00079999864}
     m_Extent: {x: 0.07575822, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1456820171
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1456820167}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1459744932
 GameObject:
   m_ObjectHideFlags: 0
@@ -12642,7 +11939,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1459744933}
   - component: {fileID: 1459744934}
-  - component: {fileID: 1459744936}
   m_Layer: 0
   m_Name: Cylinder_040
   m_TagString: Player
@@ -12776,21 +12072,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -5.368788, y: 0.0000007301569, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1459744936
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1459744932}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1479564579
 GameObject:
   m_ObjectHideFlags: 0
@@ -13000,7 +12281,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1575483986}
   - component: {fileID: 1575483987}
-  - component: {fileID: 1575483989}
   m_Layer: 0
   m_Name: Cylinder_025
   m_TagString: Player
@@ -13134,21 +12414,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -2.9445467, y: 0.00000039860606, z: -0.00079999864}
     m_Extent: {x: 0.075758815, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1575483989
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1575483985}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1576684379
 GameObject:
   m_ObjectHideFlags: 0
@@ -13306,7 +12571,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1618608409}
   - component: {fileID: 1618608410}
-  - component: {fileID: 1618608412}
   m_Layer: 0
   m_Name: Cylinder_004
   m_TagString: Player
@@ -13440,21 +12704,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.21727338, y: 0.000000029802322, z: -0.00079999864}
     m_Extent: {x: 0.07575762, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1618608412
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1618608408}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1622947058
 GameObject:
   m_ObjectHideFlags: 0
@@ -13522,7 +12771,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1656157142}
   - component: {fileID: 1656157143}
-  - component: {fileID: 1656157145}
   m_Layer: 0
   m_Name: Cylinder_013
   m_TagString: Player
@@ -13656,21 +12904,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -1.1263645, y: 0.00000015646219, z: -0.00079999864}
     m_Extent: {x: 0.07575816, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1656157145
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1656157141}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1674297083
 GameObject:
   m_ObjectHideFlags: 0
@@ -13680,7 +12913,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1674297084}
   - component: {fileID: 1674297085}
-  - component: {fileID: 1674297087}
   m_Layer: 0
   m_Name: Cylinder_061
   m_TagString: Player
@@ -13814,21 +13046,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -8.550607, y: 0.00000115484, z: -0.00079999864}
     m_Extent: {x: 0.075758934, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1674297087
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1674297083}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1001 &1676341113
 Prefab:
   m_ObjectHideFlags: 0
@@ -13870,7 +13087,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fcd1bc34302fb44a58016cf2f68e0f80, type: 3}
       propertyPath: m_LocalScale.z
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fcd1bc34302fb44a58016cf2f68e0f80, type: 3}
       propertyPath: m_LocalScale.x
@@ -13940,7 +13157,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1682820965}
   - component: {fileID: 1682820966}
-  - component: {fileID: 1682820968}
   m_Layer: 0
   m_Name: Cylinder_064
   m_TagString: Player
@@ -14074,21 +13290,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -9.005151, y: 0.0000012144446, z: -0.00079999864}
     m_Extent: {x: 0.075758934, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1682820968
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1682820964}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1692606666
 GameObject:
   m_ObjectHideFlags: 0
@@ -14098,7 +13299,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1692606667}
   - component: {fileID: 1692606668}
-  - component: {fileID: 1692606670}
   m_Layer: 0
   m_Name: Cylinder_018
   m_TagString: Player
@@ -14232,21 +13432,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -1.8839412, y: 0.00000025704503, z: -0.00079999864}
     m_Extent: {x: 0.07575804, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1692606670
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1692606666}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1001 &1711045995
 Prefab:
   m_ObjectHideFlags: 0
@@ -14339,7 +13524,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1724241738}
   - component: {fileID: 1724241739}
-  - component: {fileID: 1724241741}
   m_Layer: 0
   m_Name: Cylinder_029
   m_TagString: Player
@@ -14473,21 +13657,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.5506077, y: 0.00000048056245, z: -0.00079999864}
     m_Extent: {x: 0.0757581, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1724241741
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1724241737}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1729806761
 GameObject:
   m_ObjectHideFlags: 0
@@ -14497,7 +13666,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1729806762}
   - component: {fileID: 1729806763}
-  - component: {fileID: 1729806765}
   m_Layer: 0
   m_Name: Cylinder_039
   m_TagString: Player
@@ -14631,21 +13799,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -5.2172728, y: 0.00000070407987, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1729806765
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1729806761}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!4 &1746685743 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4221004525923190, guid: 826b0492b4c474e68a3a0e17a6c29f75,
@@ -14689,7 +13842,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1762716351}
   - component: {fileID: 1762716352}
-  - component: {fileID: 1762716354}
   m_Layer: 0
   m_Name: Cylinder_059
   m_TagString: Player
@@ -14823,21 +13975,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -8.247576, y: 0.0000011175871, z: -0.00079999864}
     m_Extent: {x: 0.075758934, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1762716354
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1762716350}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1770725998
 GameObject:
   m_ObjectHideFlags: 0
@@ -14847,7 +13984,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1770725999}
   - component: {fileID: 1770726000}
-  - component: {fileID: 1770726002}
   m_Layer: 0
   m_Name: Cylinder_010
   m_TagString: Player
@@ -14981,21 +14117,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.67181855, y: 0.00000008940697, z: -0.00079999864}
     m_Extent: {x: 0.07575828, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1770726002
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1770725998}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1772585250
 GameObject:
   m_ObjectHideFlags: 0
@@ -15005,7 +14126,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1772585251}
   - component: {fileID: 1772585252}
-  - component: {fileID: 1772585254}
   m_Layer: 0
   m_Name: Cylinder_050
   m_TagString: Player
@@ -15139,21 +14259,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -6.8839407, y: 0.0000009313226, z: -0.00079999864}
     m_Extent: {x: 0.07575822, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1772585254
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1772585250}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1777822473
 GameObject:
   m_ObjectHideFlags: 0
@@ -15163,7 +14268,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1777822474}
   - component: {fileID: 1777822475}
-  - component: {fileID: 1777822477}
   m_Layer: 0
   m_Name: Cylinder_060
   m_TagString: Player
@@ -15297,21 +14401,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -8.399092, y: 0.0000011362135, z: -0.00079999864}
     m_Extent: {x: 0.07575846, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1777822477
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1777822473}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1001 &1803631404
 Prefab:
   m_ObjectHideFlags: 0
@@ -15353,7 +14442,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a3dc9f0321bed4ec083103fec00b595c, type: 3}
       propertyPath: m_LocalScale.z
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a3dc9f0321bed4ec083103fec00b595c, type: 3}
       propertyPath: m_IsActive
@@ -15473,7 +14562,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1842233889}
   - component: {fileID: 1842233890}
-  - component: {fileID: 1842233892}
   m_Layer: 0
   m_Name: Cylinder_041
   m_TagString: Player
@@ -15607,21 +14695,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -5.5203037, y: 0.00000074878335, z: -0.00079999864}
     m_Extent: {x: 0.07575822, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1842233892
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1842233888}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1858963145
 GameObject:
   m_ObjectHideFlags: 0
@@ -15660,7 +14733,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1867632535}
   - component: {fileID: 1867632536}
-  - component: {fileID: 1867632538}
   m_Layer: 0
   m_Name: Cylinder_015
   m_TagString: Player
@@ -15794,21 +14866,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -1.4293945, y: 0.0000001937151, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1867632538
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1867632534}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1908496748
 GameObject:
   m_ObjectHideFlags: 0
@@ -15818,7 +14875,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1908496749}
   - component: {fileID: 1908496750}
-  - component: {fileID: 1908496752}
   m_Layer: 0
   m_Name: Cylinder_065
   m_TagString: Player
@@ -15952,21 +15008,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -9.156668, y: 0.0000012330711, z: -0.00079999864}
     m_Extent: {x: 0.07575798, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1908496752
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1908496748}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1916012599
 GameObject:
   m_ObjectHideFlags: 0
@@ -15976,7 +15017,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1916012600}
   - component: {fileID: 1916012601}
-  - component: {fileID: 1916012603}
   m_Layer: 0
   m_Name: Cylinder_046
   m_TagString: Player
@@ -16110,21 +15150,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -6.2778797, y: 0.0000008493662, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &1916012603
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1916012599}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1916968357
 GameObject:
   m_ObjectHideFlags: 0
@@ -16422,7 +15447,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2011752558}
   - component: {fileID: 2011752559}
-  - component: {fileID: 2011752561}
   m_Layer: 0
   m_Name: Cylinder_043
   m_TagString: Player
@@ -16556,21 +15580,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -5.8233337, y: 0.00000078603625, z: -0.00079999864}
     m_Extent: {x: 0.075758934, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &2011752561
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2011752557}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &2011768419
 GameObject:
   m_ObjectHideFlags: 0
@@ -16703,7 +15712,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2041159547}
   - component: {fileID: 2041159548}
-  - component: {fileID: 2041159550}
   m_Layer: 0
   m_Name: Cylinder_021
   m_TagString: Player
@@ -16837,21 +15845,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -2.338486, y: 0.00000032037497, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277802, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &2041159550
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2041159546}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &2047077851
 GameObject:
   m_ObjectHideFlags: 0
@@ -16861,7 +15854,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2047077852}
   - component: {fileID: 2047077853}
-  - component: {fileID: 2047077855}
   m_Layer: 0
   m_Name: Cylinder_034
   m_TagString: Player
@@ -16995,21 +15987,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -4.4596977, y: 0.000000603497, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &2047077855
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2047077851}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &2047225143
 GameObject:
   m_ObjectHideFlags: 0
@@ -17216,7 +16193,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2081250105}
   - component: {fileID: 2081250106}
-  - component: {fileID: 2081250108}
   m_Layer: 0
   m_Name: Cylinder_036
   m_TagString: Player
@@ -17350,21 +16326,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -4.7627277, y: 0.00000064074993, z: -0.00079999864}
     m_Extent: {x: 0.075758696, y: 0.07277801, z: 0.072379015}
   m_DirtyAABB: 0
---- !u!54 &2081250108
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2081250104}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1001 &2121041255
 Prefab:
   m_ObjectHideFlags: 0
@@ -17406,7 +16367,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1fcd947a3997f4491a0bde4171813efb, type: 3}
       propertyPath: m_LocalScale.z
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1fcd947a3997f4491a0bde4171813efb, type: 3}
       propertyPath: m_IsActive
