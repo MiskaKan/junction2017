@@ -22,28 +22,35 @@ public class Main : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		checkMoveListeners ();
 		updateHeating ();
 		coolDownPole ();
 		twistPole ();
-		if (Input.GetKey(KeyCode.LeftArrow)) {
-			moveHolePole (-0.01f);
-		}
-		if (Input.GetKey(KeyCode.RightArrow)) {
-			moveHolePole (0.01f);
-		}
-
 	}
 
-	private void moveHolePole(float byX){
+	private void checkMoveListeners(){
+		if (Input.touchCount > 0){
+			Vector2 touchDeltaPosition = Input.GetTouch(0).deltaPosition;
+			if (touchDeltaPosition.x > 0f) {
+				moveHolePole (touchDeltaPosition.x * 0.0045f/*Globals.self.movingSpeed*/);
+			}
+		} else if(Input.GetKey(KeyCode.RightArrow)){
+			moveHolePole (0.1f * Globals.self.movingSpeed);
+		}
+	}
+
+	private void moveHolePole(float byX, float byY = 0f){
 		var pp = Globals.self.mainPole.transform.position;
-		Globals.self.mainPole.transform.position = new Vector3 (pp.x + byX, pp.y, pp.z);
+		Globals.self.mainPole.transform.position = new Vector3 (pp.x + byX, pp.y + byY, pp.z);
 	}
 
 	private void updateHeating(){
 		var tmpBones = getBonesCloseEnoughFire (Globals.self.heatingRadius);
 		for (var i = 0; i < tmpBones.Count; i++) {
 			var single = (tmpBones[i] as Tuple<PolePiece, float>);
-			single.First.addHeat (single.Second);
+			if (single.Second != 0f) {
+				single.First.addHeat (Globals.self.heatingRadius - single.Second);
+			}
 		}
 	}
 

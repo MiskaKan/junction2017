@@ -16,7 +16,7 @@ public class PolePiece {
 
 	public float doTwist(){
 		float gravityMultiplier = getGravityMultiplier ();
-		float twistAmount = Mathf.Pow(heat, 2f)*gravityMultiplier*Globals.self.heatingStrength;
+		float twistAmount = Mathf.Pow(heat, 3f)*gravityMultiplier*Globals.self.heatingStrength;
 		go.transform.Rotate (new Vector3 (go.transform.rotation.x, go.transform.rotation.y, twistAmount));
 		//return twistAmount;
 		return gravityMultiplier;
@@ -24,7 +24,6 @@ public class PolePiece {
 
 	public float coolDown(){
 		heat = Mathf.Abs(heat) * 0.99f;
-		MonoBehaviour.print (heat);
 		return heat;
 	}
 
