@@ -11,8 +11,7 @@ public class Main : MonoBehaviour
     private ArrayList bones = new ArrayList();
     public bool movementDisabled = false;
 
-    void Awake()
-    {
+    void Awake(){
         if (instance == null)
             instance = this;
         else if (instance != this)
@@ -26,8 +25,7 @@ public class Main : MonoBehaviour
 	}
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         checkMoveListeners();
         updateHeating();
         coolDownPole();
@@ -43,15 +41,21 @@ public class Main : MonoBehaviour
         if (movementDisabled){
             return;
         }
+			
 		if (Input.touchCount > 0){
-			LevelButtons.showButtons = false;
 			Vector2 touchDeltaPosition = Input.GetTouch(0).deltaPosition;
 			if (touchDeltaPosition.x > 0f) {
 				moveHolePole (touchDeltaPosition.x * 0.0045f);
+				Globals.self.poleMoved += touchDeltaPosition.x * 0.0045f;
 			}
 		} else if(Input.GetKey(KeyCode.RightArrow)){
-			LevelButtons.showButtons = false;
 			moveHolePole (0.1f * Globals.self.movingSpeed);
+			Globals.self.poleMoved += 0.1f * Globals.self.movingSpeed;
+		}
+
+		print (Globals.self.poleMoved);
+		if (Globals.self.poleMoved > 0.5f) {
+			LevelButtons.showButtons = false;
 		}
 	}
 

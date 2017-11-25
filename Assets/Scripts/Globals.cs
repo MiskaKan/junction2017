@@ -20,6 +20,7 @@ public class Globals : MonoBehaviour {
 	private float zRotation;
 	public ArrayList bones = new ArrayList();
 	public ArrayList poleMeshes = new ArrayList();
+	public float poleMoved = 0f;
 
 	// Use this for initialization
 	void Start () {
@@ -53,6 +54,7 @@ public class Globals : MonoBehaviour {
 		for (var i = 0; i < Globals.self.bones.Count; i++) {
 			(Globals.self.bones[i] as PolePiece).reset();
 		}
+		Globals.self.poleMoved = 0f;
 		Globals.self.mainPole.transform.position = Globals.self.mainPoleOriginalPosition;
 	}
 

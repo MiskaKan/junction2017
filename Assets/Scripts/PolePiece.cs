@@ -56,7 +56,7 @@ public class PolePiece {
 	public float coolDown(){			
 		if (!isDestroyed) {
 			heat = Mathf.Abs(heat) * 0.99f;
-			visualGoMaterial.color = new Color (0.2f + heat / 25f, 0.2f, 0.2f); 
+			visualGoMaterial.color = new Color (0.2f + heat / 22f, 0.25f, 0.2f); 
 			return heat;
 		} else {
 			return 0f;
