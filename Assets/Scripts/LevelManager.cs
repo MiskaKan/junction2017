@@ -34,8 +34,8 @@ public class LevelManager : MonoBehaviour {
 
         if (level > -1 && level < levels.Count) {
             if (level == 0) {
-                clone = Instantiate(levels[level], new Vector3(5.0f, 3.9f, 1), Quaternion.Euler(180, 0, 180));
-                clone.gameObject.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+				clone = Instantiate(levels[level], new Vector3(6.48f, 3.72f, 1), Quaternion.Euler(180, 0, 180));
+                clone.gameObject.transform.localScale = new Vector3(0.3f, 0.3f, 0.2f);
             } else if (level == 1) {
                 clone = Instantiate(levels[level], new Vector3(2.5f, 4.8f, 1), Quaternion.Euler(0, 180, 0));
                 clone.gameObject.transform.localScale = new Vector3(4f, 4f, 4f);
