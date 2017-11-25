@@ -196,6 +196,80 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftButton: {fileID: 716639396}
   rightButton: {fileID: 585713638}
+--- !u!1 &290206343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 290206346}
+  - component: {fileID: 290206345}
+  - component: {fileID: 290206344}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &290206344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 290206343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &290206345
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 290206343}
+--- !u!224 &290206346
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 290206343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 337.96277, y: 4.2673645, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 924145188}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 337.96277, y: 4.2673645}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518876200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,7 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66557861ebad347a1b97f6cdb79130e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boneMother: {fileID: 0}
+  boneMother: {fileID: 756267067}
 --- !u!1 &585713633
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,7 +409,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 585713635}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -457,6 +531,14 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 716639394}
+--- !u!1 &742426692 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100136, guid: cf83de14ebd414df5aadd0413b755447, type: 3}
+  m_PrefabInternal: {fileID: 1938427989}
+--- !u!1 &756267067 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100032, guid: cf83de14ebd414df5aadd0413b755447, type: 3}
+  m_PrefabInternal: {fileID: 1938427989}
 --- !u!1 &813753646
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +715,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 240140887}
+  - {fileID: 290206346}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -651,6 +734,7 @@ GameObject:
   - component: {fileID: 518876201}
   - component: {fileID: 518876202}
   - component: {fileID: 518876200}
+  - component: {fileID: 1068162034}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -658,6 +742,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1068162034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1068162033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773937bd15f6941c589f0cb7f688043d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainPole: {fileID: 742426692}
+  fire: {fileID: 1948816897}
+  heatingRadius: 0.5
+  heatingStrength: 0.001
+  movingSpeed: 0.001
+  gravityDirection: {x: 0, y: -1, z: 0}
+  text: {fileID: 290206344}
 --- !u!1 &1155011561
 GameObject:
   m_ObjectHideFlags: 0
