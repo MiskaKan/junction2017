@@ -17,7 +17,7 @@ public class LevelManager : MonoBehaviour {
         DestoryClones();
         levels = new List<GameObject>() { level1, level2, level3, level4, level5 };
         if (level > -1 && level < levels.Count) {
-            GameObject clone = Instantiate(levels[level], new Vector3(0, 0, 0), Quaternion.identity);
+            GameObject clone = Instantiate(levels[level], new Vector3(0, 0, 0), Quaternion.Euler(90,0,180));
             clone.gameObject.tag = "clone";
         }
         
