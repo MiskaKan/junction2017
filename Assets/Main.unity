@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.38073993, b: 0.358727, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -549,7 +549,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 112344088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 457.9, y: 275.4, z: 0}
+  m_LocalPosition: {x: 355.55804, y: 249.48022, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1433642339}
@@ -558,10 +558,10 @@ RectTransform:
   m_Father: {fileID: 501302160}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 457.9, y: 275.4}
-  m_SizeDelta: {x: -980.5, y: -550.9}
+  m_AnchorMin: {x: 0.7631824, y: 0.8426926}
+  m_AnchorMax: {x: 0.7631824, y: 0.8426926}
+  m_AnchoredPosition: {x: 15, y: 0}
+  m_SizeDelta: {x: 451.5, y: 309.09998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &112344091
 MonoBehaviour:
@@ -6401,7 +6401,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &497827814
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6577,7 +6577,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 501302156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 698, y: 329.5, z: 0}
+  m_LocalPosition: {x: 647, y: 364, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 112344089}
@@ -11779,16 +11779,16 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1433642338}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 129.95, y: 0.000022888184, z: 0}
+  m_LocalPosition: {x: 109.54999, y: 0.000061035156, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 112344089}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -77.8, y: 0.000024319}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 109.54999, y: 0.00005340576}
+  m_SizeDelta: {x: -333.41003, y: -235.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1433642340
 MonoBehaviour:
@@ -11850,7 +11850,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 05e809979efdd4fcfa7cb22234d84fca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b32252943f4c484292121587646c4c9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16042,16 +16042,16 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2049151766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -127.74997, y: 0, z: 0}
+  m_LocalPosition: {x: -110.04999, y: 0.000030517578, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 112344089}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 80.00003, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -110.05, y: 0.000022888184}
+  m_SizeDelta: {x: -334.4, y: -235.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2049151768
 MonoBehaviour:
@@ -16113,7 +16113,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1c2e66f70ee3648f093394f581987675, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 21228db8b291a4aebb1317841ff759c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
