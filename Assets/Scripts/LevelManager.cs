@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour {
     public GameObject level2;
     public GameObject level3;
     public GameObject level4;
-    public GameObject level5;
+    //public GameObject level5;
     private Main main;
     public int level;
 
@@ -40,22 +40,22 @@ public class LevelManager : MonoBehaviour {
 
     public void SetupScene() {
         DestoryClones();
-        levels = new List<GameObject>() { level1, level2, level3, level4, level5 };
+        levels = new List<GameObject>() { level1, level2, level3, level4 };
 
         if (level > -1 && level < levels.Count) {
             if (level == 0) {
 				clone = Instantiate(levels[level], new Vector3(6.48f, 3.72f, 1), Quaternion.Euler(180, 0, 180));
                 clone.gameObject.transform.localScale = new Vector3(0.3f, 0.3f, 0.2f);
-            } else if (level == 1) {
+            }/* else if (level == 1) {
                 clone = Instantiate(levels[level], new Vector3(2.5f, 4.8f, 1), Quaternion.Euler(0, 180, 0));
                 clone.gameObject.transform.localScale = new Vector3(4f, 4f, 4f);
-            } else if (level == 2) {
+            }*/ else if (level == 1) {
                 clone = Instantiate(levels[level], new Vector3(5.0f, 4.8f, 1), Quaternion.Euler(180, 0, 180));
                 clone.gameObject.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
-            } else if (level == 3) {
+            } else if (level == 2) {
                 clone = Instantiate(levels[level], new Vector3(5.0f, 4f, 1), Quaternion.Euler(180, 0, 180));
                 clone.gameObject.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
-            } else if (level == 4) {
+            } else if (level == 3) {
                 clone = Instantiate(levels[level], new Vector3(5.0f, 4.1f, 1), Quaternion.Euler(180, 0, 180));
                 clone.gameObject.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
             }
