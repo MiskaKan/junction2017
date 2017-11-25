@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour {
     }
 
     void Update() {
+        //Level completed
         if (clone.transform.position.z < -0.2f) {
             //Do stuff
             main.LoadNextLevel();

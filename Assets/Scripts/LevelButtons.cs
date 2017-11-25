@@ -20,12 +20,10 @@ public class LevelButtons : MonoBehaviour {
 
 	void PreviousLevelPress() {
         main.LoadPreviousLevel();
-		Debug.Log ("Prev. pressed");
 	}
 
 	void NextLevelPress() {
         main.LoadNextLevel();
-        Debug.Log ("Next pressed");
 	}
 
     void TestLevel() {
