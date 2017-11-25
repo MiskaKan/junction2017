@@ -12,11 +12,7 @@ public class LevelManager : MonoBehaviour {
 
     List<GameObject> levels;
 
-
-
-
-    public LevelManager()
-    {
+    public LevelManager() {
         levels = new List<GameObject>() { level1, level2, level3, level4, level5 };
     }
 

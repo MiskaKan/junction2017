@@ -18,17 +18,13 @@ public class Main : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
         levelScript = GetComponent<LevelManager>();
-        InitGame();
+        LoadLevel(level);
     }
 
-    void OnLevelWasLoaded(int index) {
-        level = index;
-        InitGame();
+    public void LoadLevel(int index) {
+        levelScript.SetupScene(index);
     }
 
-    void InitGame() {
-        levelScript.SetupScene(level);
-    }
 
     void Update() {
     }
