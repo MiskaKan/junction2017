@@ -21,6 +21,7 @@ public class StateSaver {
 
 	public void Load() {
 		if (File.Exists (Application.persistentDataPath + "/levelSave.pole")) {
+			Debug.Log (Application.persistentDataPath + "/levelSave.pole");
 			BinaryFormatter bf = new BinaryFormatter ();
 			FileStream file = File.Open(Application.persistentDataPath + "/levelSave.pole", FileMode.Open);
 			maxLevel = ((PlayerData)bf.Deserialize (file)).maxLevel;
