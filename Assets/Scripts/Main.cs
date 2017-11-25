@@ -34,6 +34,10 @@ public class Main : MonoBehaviour
         levelScript.SetupScene(level);
     }
 
+    public void InitiateCheck() {
+        levelScript.StartMovingPlane();
+    }
+
     public void GameOver() {
         enabled = false;
     }
