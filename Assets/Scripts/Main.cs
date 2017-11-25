@@ -9,6 +9,7 @@ public class Main : MonoBehaviour
     private LevelManager levelScript;
     public GameObject boneMother = null;
     private ArrayList bones = new ArrayList();
+    public bool movementDisabled = false;
 
     void Awake()
     {
@@ -20,25 +21,28 @@ public class Main : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public void GameOver() {
-        enabled = false;
-    }
-
-
-
 	// Use this for initialization
 	void Start () {
 	}
 
-	// Update is called once per frame
-	void Update () {
-		checkMoveListeners ();
-		updateHeating ();
-		coolDownPole ();
-		twistPole ();
-	}
+    // Update is called once per frame
+    void Update()
+    {
+        checkMoveListeners();
+        updateHeating();
+        coolDownPole();
+        twistPole();
 
+        if (Globals.self.mainPole.transform.position.x > 0.4f) {
+            movementDisabled = true;
+            levelScript = FindObjectOfType(typeof(LevelManager)) as LevelManager;
+            levelScript.StartMovingPlane();
+        }
+    }
 	private void checkMoveListeners(){
+        if (movementDisabled){
+            return;
+        }
 		if (Input.touchCount > 0){
 			Vector2 touchDeltaPosition = Input.GetTouch(0).deltaPosition;
 			if (touchDeltaPosition.x > 0f) {

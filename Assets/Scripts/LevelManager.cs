@@ -22,6 +22,9 @@ public class LevelManager : MonoBehaviour {
         main = FindObjectOfType(typeof(Main)) as Main;
         Globals.self.state.Load();
         level = Globals.self.state.maxLevel;
+        if (level < 0 || level > 3) {
+            level = 0;
+        }
         SetupScene();
     }
 
@@ -42,6 +45,8 @@ public class LevelManager : MonoBehaviour {
 
     public void SetupScene() {
         DestoryClones();
+        Globals.resetPole();
+        main.movementDisabled = false;
         levels = new List<GameObject>() { level1, level2, level3, level4 };
 
         if (level > -1 && level < levels.Count) {

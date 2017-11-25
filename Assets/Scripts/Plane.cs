@@ -18,6 +18,8 @@ public class Plane : MonoBehaviour {
 		if (other.gameObject.tag == "Player") {
             Debug.Log("Hit the pole");
             this.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            LevelManager levels = FindObjectOfType(typeof(LevelManager)) as LevelManager;
+            levels.SetupScene();
         }    
     }
 }
