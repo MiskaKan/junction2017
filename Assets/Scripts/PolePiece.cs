@@ -16,12 +16,16 @@ public class PolePiece {
 		goMesh.GetComponent<SkinnedMeshRenderer> ().rootBone = goBone.transform;
 
 		var boxCollider = goBone.AddComponent<BoxCollider>();
-		var rigidBody = goBone.AddComponent<Rigidbody>();
-		rigidBody.useGravity = false;
-		boxCollider.center = Vector3.zero;
-		boxCollider.size = new Vector3 (0.2f, 0.2f, 0.2f);
-		boxCollider.isTrigger = true;
-		boxCollider.tag = "Player";
+		var rigidBody = goMesh.AddComponent<Rigidbody>();
+		if (rigidBody != null) {
+			rigidBody.useGravity = false;
+		}
+		if (boxCollider != null) {
+			boxCollider.center = Vector3.zero;
+			boxCollider.size = new Vector3 (0.2f, 0.2f, 0.2f);
+			boxCollider.isTrigger = true;
+			boxCollider.tag = "Player";
+		}
 	}
 
 	public float addHeat(float toAdd){
