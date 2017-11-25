@@ -1,20 +1,38 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelButtons : MonoBehaviour {
 	public Button leftButton;
 	public Button rightButton;
+<<<<<<< HEAD
+	private Main MainScript;
+	// Use this for initialization
+	void Start () {
+		MainScript = GetComponent<Main>();
+		leftButton.onClick.AddListener(PreviousLevelPress);
+=======
     private Main main;
 	// Use this for initialization
 	void Start () {
         main = FindObjectOfType(typeof(Main)) as Main;
         leftButton.onClick.AddListener(PreviousLevelPress);
+>>>>>>> karri
 		rightButton.onClick.AddListener(NextLevelPress);
 	}
 
+
+
 	void PreviousLevelPress() {
+<<<<<<< HEAD
+		MainScript.LoadPreviousLevel ();
+	}
+
+	void NextLevelPress() {
+		MainScript.LoadNextLevel ();
+=======
         main.LoadPreviousLevel();
 		Debug.Log ("Prev. pressed");
 	}
@@ -22,6 +40,7 @@ public class LevelButtons : MonoBehaviour {
 	void NextLevelPress() {
         main.LoadNextLevel();
         Debug.Log ("Next pressed");
+>>>>>>> karri
 	}
 	
 	// Update is called once per frame
