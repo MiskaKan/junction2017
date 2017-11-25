@@ -6,18 +6,22 @@ using UnityEngine.UI;
 public class LevelButtons : MonoBehaviour {
 	public Button leftButton;
 	public Button rightButton;
+	private Main MainScript;
 	// Use this for initialization
 	void Start () {
+		MainScript = GetComponent<Main>();
 		leftButton.onClick.AddListener(PreviousLevelPress);
 		rightButton.onClick.AddListener(NextLevelPress);
 	}
 
+
+
 	void PreviousLevelPress() {
-		Debug.Log ("Prev. pressed");
+		MainScript.LoadPreviousLevel ();
 	}
 
 	void NextLevelPress() {
-		Debug.Log ("Next pressed");
+		MainScript.LoadNextLevel ();
 	}
 	
 	// Update is called once per frame
