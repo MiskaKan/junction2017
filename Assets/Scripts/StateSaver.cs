@@ -7,7 +7,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public class StateSaver {
 
-	public int maxLevel = 1;
+	public int maxLevel = 0;
 
 	public void Save () {
 		BinaryFormatter bf = new BinaryFormatter();
