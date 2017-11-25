@@ -10,14 +10,21 @@ public class LevelManager : MonoBehaviour {
     public GameObject level3;
     public GameObject level4;
     public GameObject level5;
+    private Main main;
 
     List<GameObject> levels;
 
     GameObject clone;
 
     void Start() {
-        
-        
+        main = FindObjectOfType(typeof(Main)) as Main;
+    }
+
+    void Update() {
+        if (clone.transform.position.z < -0.2f) {
+            //Do stuff
+            main.LoadNextLevel();
+        }  
     }
 
     public void SetupScene(int level) {
