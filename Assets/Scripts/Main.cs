@@ -63,7 +63,7 @@ public class Main : MonoBehaviour
 			}
 		}
 	}
-
+				
 	private void twistPole(){
 		for (var i = 0; i < Globals.self.bones.Count; i++) {
 			(Globals.self.bones[i] as PolePiece).doTwist();

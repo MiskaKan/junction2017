@@ -33,6 +33,11 @@ public class PolePiece {
 		}
 	}
 
+	public void reset(){
+		heat = 0.0f;
+		goBone.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+	}
+
 	public float doTwist(){
 		if (!isDestroyed) {
 			float gravityMultiplier = getGravityMultiplier ();

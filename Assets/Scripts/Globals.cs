@@ -7,6 +7,7 @@ public class Globals : MonoBehaviour {
 	public static Globals self;
 	public GameObject boneMother = null;
 	public GameObject mainPole = null;
+	public Vector3 mainPoleOriginalPosition = Vector3.zero;
 	public GameObject fire = null;
 	public float heatingRadius = 0.5f;
 	public float heatingStrength = 0.001f;
@@ -24,6 +25,7 @@ public class Globals : MonoBehaviour {
 	void Start () {
 		self = this;
 		Input.gyro.enabled = true;
+		mainPoleOriginalPosition = mainPole.transform.position;
 
 		for (int i = 1; i < mainPole.transform.childCount; i++) {
 			poleMeshes.Add (mainPole.transform.GetChild (i).gameObject);
@@ -44,6 +46,13 @@ public class Globals : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		gravityDirection = Input.gyro.gravity;
+	}
+
+	public static void resetPole(){
+		for (var i = 0; i < Globals.self.bones.Count; i++) {
+			(Globals.self.bones[i] as PolePiece).reset();
+		}
+		Globals.self.mainPole.transform.position = Globals.self.mainPoleOriginalPosition;
 	}
 
 	/*Threshold could be maybe between 0.3 to 1.0*/
