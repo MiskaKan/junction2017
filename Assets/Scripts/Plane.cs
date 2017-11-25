@@ -15,7 +15,7 @@ public class Plane : MonoBehaviour {
 	}
 
     void OnTriggerEnter (Collider other) {
-        if (other.gameObject.tag == "Player") {
+		if (other.gameObject.tag == "Player") {
             Debug.Log("Hit the pole");
             this.GetComponent<Rigidbody>().velocity = Vector3.zero;
         }    
