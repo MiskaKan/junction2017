@@ -3,21 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Main : MonoBehaviour {
-	public GameObject boneMother = null;
-	private ArrayList bones = new ArrayList();
 
 	// Use this for initialization
 	void Start () {
-		var loopSafe = 1000;
-		var boneChild = new PolePiece(boneMother.transform.GetChild(0).gameObject);
-		while (true && loopSafe-- > 0) {
-			bones.Add (boneChild);
-			if (boneChild.go.transform.childCount > 0)
-				boneChild = new PolePiece(boneChild.go.transform.GetChild (0).gameObject);
-			else
-				break;
-		}
-			
 	}
 
 	// Update is called once per frame
@@ -32,7 +20,7 @@ public class Main : MonoBehaviour {
 		if (Input.touchCount > 0){
 			Vector2 touchDeltaPosition = Input.GetTouch(0).deltaPosition;
 			if (touchDeltaPosition.x > 0f) {
-				moveHolePole (touchDeltaPosition.x * 0.0045f/*Globals.self.movingSpeed*/);
+				moveHolePole (touchDeltaPosition.x * 0.0045f);
 			}
 		} else if(Input.GetKey(KeyCode.RightArrow)){
 			moveHolePole (0.1f * Globals.self.movingSpeed);
@@ -45,7 +33,7 @@ public class Main : MonoBehaviour {
 	}
 
 	private void updateHeating(){
-		var tmpBones = getBonesCloseEnoughFire (Globals.self.heatingRadius);
+		var tmpBones = Globals.getBonesCloseEnoughFire (Globals.self.heatingRadius);
 		for (var i = 0; i < tmpBones.Count; i++) {
 			var single = (tmpBones[i] as Tuple<PolePiece, float>);
 			if (single.Second != 0f) {
@@ -55,27 +43,14 @@ public class Main : MonoBehaviour {
 	}
 
 	private void twistPole(){
-		for (var i = 0; i < bones.Count; i++) {
-			(bones[i] as PolePiece).doTwist();
+		for (var i = 0; i < Globals.self.bones.Count; i++) {
+			(Globals.self.bones[i] as PolePiece).doTwist();
 		}
 	}
 
 	private void coolDownPole(){
-		for (var i = 0; i < bones.Count; i++) {
-			(bones[i] as PolePiece).coolDown();
+		for (var i = 0; i < Globals.self.bones.Count; i++) {
+			(Globals.self.bones[i] as PolePiece).coolDown();
 		}
-	}
-
-	/*Threshold could be maybe between 0.3 to 1.0*/
-	private ArrayList getBonesCloseEnoughFire(float threshold){
-		ArrayList approved = new ArrayList ();
-		for (var i = 0; i < bones.Count; i++) {
-			var single = bones [i] as PolePiece;
-			var distance = Vector3.Distance (single.go.transform.position, Globals.self.fire.transform.position);
-			if (distance < threshold) {
-				approved.Add (new Tuple<PolePiece, float> (single, distance));
-			}
-		}
-		return approved;
 	}
 }
