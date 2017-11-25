@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour {
     //public GameObject level5;
     private Main main;
     public int level;
+//	LevelButtons buttons = FindObjectOfType(typeof(LevelButtons)) as LevelButtons;
 
     List<GameObject> levels;
 
@@ -28,12 +29,13 @@ public class LevelManager : MonoBehaviour {
         //Level completed
         if (clone.transform.position.z < -0.2f) {
             //Do stuff
-            if (level == Globals.self.state.maxLevel) {
+			if (level == Globals.self.state.maxLevel && level < 3) {
                 Globals.self.state.maxLevel++;
                 Globals.self.state.Save();
             }
-            
-            level++;
+
+            //What happens after the last level has been completed?
+			if (level < 3) level++;
             SetupScene();
         }  
     }

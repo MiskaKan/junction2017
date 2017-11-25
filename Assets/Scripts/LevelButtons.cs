@@ -19,13 +19,17 @@ public class LevelButtons : MonoBehaviour {
     }
 
 	void PreviousLevelPress() {
-        levels.level--;
-        levels.SetupScene();
+		if (levels.level > 0) {
+			levels.level--;
+			levels.SetupScene();
+		}
 	}
 
 	void NextLevelPress() {
-        levels.level++;
-        levels.SetupScene();
+		if (levels.level < 3 && levels.level < Globals.self.state.maxLevel) {
+			levels.level++;
+			levels.SetupScene ();
+		}
     }
 
     void TestLevel() {
