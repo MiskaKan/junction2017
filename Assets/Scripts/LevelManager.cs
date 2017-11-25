@@ -82,6 +82,6 @@ public class LevelManager : MonoBehaviour {
     }
 
     public void StartMovingPlane() {
-        clone.GetComponent<Rigidbody>().AddForce(0, 0, -5.0f);
+        clone.GetComponent<Rigidbody>().AddForce(0, 0, -20.0f);
     }
 }
