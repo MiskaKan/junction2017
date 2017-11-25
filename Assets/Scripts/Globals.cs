@@ -12,12 +12,18 @@ public class Globals : MonoBehaviour {
 	public float heatingStrength = 0.001f;
 	public float movingSpeed = 0.001f;
 	public Vector3 gravityDirection = Vector3.down;
+	public Text text = null;
+	public StateSaver state = new StateSaver ();
+	private float yRotation;
+	private float xRotation;
+	private float zRotation;
 	public ArrayList bones = new ArrayList();
 	public ArrayList poleMeshes = new ArrayList();
 
 	// Use this for initialization
 	void Start () {
 		self = this;
+		state.Load ();
 		Input.gyro.enabled = true;
 
 		for (int i = 1; i < mainPole.transform.childCount; i++) {
