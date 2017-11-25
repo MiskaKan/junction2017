@@ -8,26 +8,28 @@ public class LevelButtons : MonoBehaviour {
 	public Button leftButton;
 	public Button rightButton;
     public Button testButton;
-    private Main main;
+    private LevelManager levels;
 
 	// Use this for initialization
 	void Start () {
-        main = FindObjectOfType(typeof(Main)) as Main;
+        levels = FindObjectOfType(typeof(LevelManager)) as LevelManager;
         leftButton.onClick.AddListener(PreviousLevelPress);
 		rightButton.onClick.AddListener(NextLevelPress);
         testButton.onClick.AddListener(TestLevel);
     }
 
 	void PreviousLevelPress() {
-        main.LoadPreviousLevel();
+        levels.level--;
+        levels.SetupScene();
 	}
 
 	void NextLevelPress() {
-        main.LoadNextLevel();
-	}
+        levels.level++;
+        levels.SetupScene();
+    }
 
     void TestLevel() {
-        main.InitiateCheck();
+        levels.StartMovingPlane();
     }
 	
 	// Update is called once per frame

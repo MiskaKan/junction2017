@@ -23,7 +23,6 @@ public class Globals : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		self = this;
-		state.Load ();
 		Input.gyro.enabled = true;
 
 		for (int i = 1; i < mainPole.transform.childCount; i++) {
