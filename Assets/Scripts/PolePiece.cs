@@ -11,7 +11,7 @@ public class PolePiece {
 	public PolePiece(GameObject _go){
 		goBone = _go;
 		goMesh = Globals.getMeshCloseToBone (goBone.transform.position);
-		visualGoMaterial = new Material (Shader.Find("Specular"));
+		visualGoMaterial = new Material (Shader.Find("Legacy Shaders/Specular"));
 		goMesh.GetComponent<Renderer> ().material = visualGoMaterial;
 	}
 

@@ -38,7 +38,7 @@ public class Globals : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//gravityDirection = Input.gyro.gravity;
+		gravityDirection = Input.gyro.gravity;
 	}
 
 	/*Threshold could be maybe between 0.3 to 1.0*/
