@@ -21,6 +21,7 @@ public class Globals : MonoBehaviour {
 	public ArrayList bones = new ArrayList();
 	public ArrayList poleMeshes = new ArrayList();
 	public float poleMoved = 0f;
+	public bool introDone = false;
 
 	// Use this for initialization
 	void Start () {

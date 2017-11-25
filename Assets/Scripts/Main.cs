@@ -53,7 +53,6 @@ public class Main : MonoBehaviour
 			Globals.self.poleMoved += 0.1f * Globals.self.movingSpeed;
 		}
 
-		print (Globals.self.poleMoved);
 		if (Globals.self.poleMoved > 0.5f) {
 			LevelButtons.showButtons = false;
 		}
