@@ -33,3 +33,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 .DS_Store
+
+# Custom shit
+./Assets/Main.unity
+./Assets/Main.unity.meta
