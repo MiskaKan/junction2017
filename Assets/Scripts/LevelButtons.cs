@@ -26,7 +26,7 @@ public class LevelButtons : MonoBehaviour {
 	}
 
 	void NextLevelPress() {
-		if (levels.level < 4 && levels.level < Globals.self.state.maxLevel) {
+		if (levels.level < 3 && levels.level < Globals.self.state.maxLevel) {
 			levels.level++;
 			levels.SetupScene ();
 		}

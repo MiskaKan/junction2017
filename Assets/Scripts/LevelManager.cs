@@ -29,13 +29,13 @@ public class LevelManager : MonoBehaviour {
         //Level completed
         if (clone.transform.position.z < -0.2f) {
             //Do stuff
-			if (level == Globals.self.state.maxLevel && level < 4) {
+			if (level == Globals.self.state.maxLevel && level < 3) {
                 Globals.self.state.maxLevel++;
                 Globals.self.state.Save();
             }
 
             //What happens after the last level has been completed?
-			if (level < 4) level++;
+			if (level < 3) level++;
             SetupScene();
         }  
     }
