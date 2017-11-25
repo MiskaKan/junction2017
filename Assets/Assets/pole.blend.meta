@@ -1,5 +1,7 @@
 fileFormatVersion: 2
-guid: cf83de14ebd414df5aadd0413b755447
+guid: 87487cbb88e3a46cb91b54e354128bcf
+timeCreated: 1511591203
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -150,7 +152,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: unnamed
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 2941cc13864dd2745bec2bab5852ce81, type: 2}
+=======
+    second: {fileID: 2100000, guid: 5d72bf10cf4b74259a09dd18eaf6dcdc, type: 2}
+>>>>>>> origin/fire
   materials:
     importMaterials: 1
     materialName: 0
@@ -161,12 +167,12 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
+    motionNodeName:
+    rigImportErrors:
+    rigImportWarnings:
+    animationImportErrors:
+    animationImportWarnings:
+    animationRetargetingWarnings:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     animationCompression: 1
@@ -216,7 +222,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName:
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
@@ -225,6 +231,6 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  userData:
+  assetBundleName:
+  assetBundleVariant:
