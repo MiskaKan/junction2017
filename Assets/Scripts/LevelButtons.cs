@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class LevelButtons : MonoBehaviour {
+	public static bool showButtons = true;
 	public Button leftButton;
 	public Button rightButton;
     public Button testButton;
@@ -38,6 +39,7 @@ public class LevelButtons : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		leftButton.gameObject.SetActive (showButtons);
+		rightButton.gameObject.SetActive (showButtons);
 	}
 }

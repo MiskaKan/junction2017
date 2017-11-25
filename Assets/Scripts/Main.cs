@@ -44,11 +44,13 @@ public class Main : MonoBehaviour
             return;
         }
 		if (Input.touchCount > 0){
+			LevelButtons.showButtons = false;
 			Vector2 touchDeltaPosition = Input.GetTouch(0).deltaPosition;
 			if (touchDeltaPosition.x > 0f) {
 				moveHolePole (touchDeltaPosition.x * 0.0045f);
 			}
 		} else if(Input.GetKey(KeyCode.RightArrow)){
+			LevelButtons.showButtons = false;
 			moveHolePole (0.1f * Globals.self.movingSpeed);
 		}
 	}

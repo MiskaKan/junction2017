@@ -49,6 +49,7 @@ public class Globals : MonoBehaviour {
 	}
 
 	public static void resetPole(){
+		LevelButtons.showButtons = true;
 		for (var i = 0; i < Globals.self.bones.Count; i++) {
 			(Globals.self.bones[i] as PolePiece).reset();
 		}
