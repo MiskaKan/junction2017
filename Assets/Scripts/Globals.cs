@@ -12,6 +12,7 @@ public class Globals : MonoBehaviour {
 	public float movingSpeed = 0.001f;
 	public Vector3 gravityDirection = Vector3.down;
 	public Text text = null;
+	public StateSaver state = new StateSaver ();
 	private float yRotation;
 	private float xRotation;
 	private float zRotation;
@@ -19,6 +20,7 @@ public class Globals : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		self = this;
+		state.Load ();
 		Input.gyro.enabled = true;
 	}
 	

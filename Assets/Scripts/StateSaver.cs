@@ -9,7 +9,7 @@ public class StateSaver {
 
 	public int maxLevel = 1;
 
-	public static void Save () {
+	public void Save () {
 		BinaryFormatter bf = new BinaryFormatter();
 		Debug.Log (Application.persistentDataPath + "/levelSave.pole");
 		PlayerData data = new PlayerData ();
@@ -19,11 +19,11 @@ public class StateSaver {
 		file.Close ();
 	}
 
-	public static void Load() {
+	public void Load() {
 		if (File.Exists (Application.persistentDataPath + "/levelSave.pole")) {
 			BinaryFormatter bf = new BinaryFormatter ();
 			FileStream file = File.Open(Application.persistentDataPath + "/levelSave.pole", FileMode.Open);
-			StateSaver.maxLevel = (PlayerData)bf.Deserialize (file);
+			maxLevel = ((PlayerData)bf.Deserialize (file)).maxLevel;
 			file.Close ();
 		}
 	}
