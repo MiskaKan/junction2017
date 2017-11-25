@@ -7,7 +7,7 @@ public class Main : MonoBehaviour
 {                  
     public static Main instance = null;
     private LevelManager levelScript;                       
-    private int level = 1;                                  
+    private int level = -1;                                  
 
     void Awake()
     {
@@ -18,13 +18,19 @@ public class Main : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
         levelScript = GetComponent<LevelManager>();
-        LoadLevel(level);
+        LoadNextLevel();
     }
 
-    public void LoadLevel(int index) {
-        levelScript.SetupScene(index);
+    public void LoadNextLevel() {
+        level++;
+        levelScript.SetupScene(level);
     }
 
+    public void LoadPreviousLevel()
+    {
+        level--;
+        levelScript.SetupScene(level);
+    }
 
     void Update() {
     }

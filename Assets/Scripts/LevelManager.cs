@@ -12,16 +12,8 @@ public class LevelManager : MonoBehaviour {
 
     List<GameObject> levels;
 
-    public LevelManager() {
-        levels = new List<GameObject>() { level1, level2, level3, level4, level5 };
-    }
-
-
-    void InitialiseList() {
-
-    }
-
     public void SetupScene(int level) {
+        levels = new List<GameObject>() { level1, level2, level3, level4, level5 };
         Instantiate(levels[level], new Vector3(0,0,0), Quaternion.identity);
     }
 }
