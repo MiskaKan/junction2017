@@ -37,6 +37,7 @@ public class Main : MonoBehaviour
             levelScript.StartMovingPlane();
         }
     }
+
 	private void checkMoveListeners(){
         if (movementDisabled){
             return;

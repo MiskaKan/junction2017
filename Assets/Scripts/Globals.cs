@@ -43,8 +43,6 @@ public class Globals : MonoBehaviour {
 				break;
 			}
 		}
-
-		InfoTextManager.self.displayText (0);
 	}
 	
 	// Update is called once per frame
