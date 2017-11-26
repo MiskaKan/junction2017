@@ -31,9 +31,10 @@ public class Main : MonoBehaviour
         coolDownPole();
         twistPole();
 
-        if (Globals.self.mainPole.transform.position.x > 0.4f && !movementDisabled) {
+        if (Globals.self.mainPole.transform.position.x > 0.7f && !movementDisabled) {
             movementDisabled = true;
             levelScript = FindObjectOfType(typeof(LevelManager)) as LevelManager;
+
             levelScript.StartMovingPlane();
         }
     }
@@ -61,7 +62,12 @@ public class Main : MonoBehaviour
 
 	private void moveHolePole(float byX, float byY = 0f){
 		var pp = Globals.self.mainPole.transform.position;
-		Globals.self.mainPole.transform.position = new Vector3 (pp.x + byX, pp.y + byY, pp.z);
+        if (pp.x + byX > 0.8f) {
+            Globals.self.mainPole.transform.position = new Vector3(0.8f, pp.y + byY, pp.z);
+        } else {
+            Globals.self.mainPole.transform.position = new Vector3(pp.x + byX, pp.y + byY, pp.z);
+        }
+		
 	}
 
 	private void updateHeating(){
