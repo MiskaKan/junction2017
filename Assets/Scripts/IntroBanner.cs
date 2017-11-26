@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class IntroBanner : MonoBehaviour {
 	public GameObject me = null;
+	public GameObject tohoLogo = null;
 	public GameObject leftArr = null;
 	public GameObject rightArr = null;
 
@@ -14,7 +15,9 @@ public class IntroBanner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (!Globals.self.introDone) {
+			tohoLogo.transform.localScale *= 1.002f;
+		}
 	}
 
 	private IEnumerator WaitAndRun(float waitTime){
