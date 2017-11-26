@@ -36,6 +36,7 @@ public class LevelManager : MonoBehaviour {
                 Globals.self.state.maxLevel++;
                 Globals.self.state.Save();
             }
+			InfoTextManager.self.displayText (3);
 
             //What happens after the last level has been completed?
 			if (level < 3) level++;
@@ -82,6 +83,7 @@ public class LevelManager : MonoBehaviour {
     }
 
     public void StartMovingPlane() {
+		InfoTextManager.self.displayText (1);
         clone.GetComponent<Rigidbody>().AddForce(0, 0, -20.0f);
     }
 }
