@@ -31,9 +31,10 @@ public class Main : MonoBehaviour
         coolDownPole();
         twistPole();
 
-        if (Globals.self.mainPole.transform.position.x > 0.4f && !movementDisabled) {
+        if (Globals.self.mainPole.transform.position.x > 0.7f && !movementDisabled) {
             movementDisabled = true;
             levelScript = FindObjectOfType(typeof(LevelManager)) as LevelManager;
+
             levelScript.StartMovingPlane();
         }
     }
