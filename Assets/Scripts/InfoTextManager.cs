@@ -14,17 +14,21 @@ public class InfoTextManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		self = this;
-		originalScale = self.transform.localScale;
+		current = sprites [0].gameObject;
 	}
 
-	public void displayText(string _text){
+	public void displayText(int text){
+		current.transform.localScale = originalScale;
 		activesLeft = activesStart;
+		originalScale = self.transform.localScale;
+		current = sprites [text].gameObject;
 		showText = true;
 	}
 
 	// Update is called once per frame
 	void Update () {
 		self.gameObject.SetActive (showText);
+		self.current.SetActive (showText);
 		if (showText) {
 			if (activesStart == 0) {
 				showText = false;
