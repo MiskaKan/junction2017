@@ -19,6 +19,7 @@ public class InfoTextManager : MonoBehaviour {
 
 	public void displayText(int text){
 		if (self != null) {
+			self.current.SetActive (false);
 			self.activesLeft = self.activesStart;
 			self.current = InfoTextManager.self.sprites [text].gameObject;
 			InfoTextManager.showText = true;
