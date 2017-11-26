@@ -40,8 +40,10 @@ public class LevelButtons : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Globals.self.introDone) {
-			leftButton.gameObject.SetActive (showButtons);
-			rightButton.gameObject.SetActive (showButtons);
+			if(leftButton != null)
+				leftButton.gameObject.SetActive (showButtons);
+			if(rightButton != null)
+				rightButton.gameObject.SetActive (showButtons);
 		}
 	}
 }

@@ -7,7 +7,7 @@ public class InfoTextManager : MonoBehaviour {
 	public static bool showText = false;
 	public SpriteRenderer[] sprites = new SpriteRenderer[0];
 	public int activesLeft = -1;
-	public int activesStart = 60;
+	public int activesStart = 100;
 	private Vector3 originalScale = Vector3.zero;
 	private GameObject current = null;
 
@@ -15,6 +15,7 @@ public class InfoTextManager : MonoBehaviour {
 	void Start () {
 		self = this;
 		current = sprites [0].gameObject;
+		originalScale = current.transform.localScale;
 	}
 
 	public void displayText(int text){
@@ -23,6 +24,8 @@ public class InfoTextManager : MonoBehaviour {
 		originalScale = self.transform.localScale;
 		current = sprites [text].gameObject;
 		showText = true;
+		self.gameObject.SetActive (true);
+		self.current.SetActive (true);
 	}
 
 	// Update is called once per frame
@@ -30,12 +33,12 @@ public class InfoTextManager : MonoBehaviour {
 		self.gameObject.SetActive (showText);
 		self.current.SetActive (showText);
 		if (showText) {
-			if (activesStart == 0) {
+			if (activesLeft == 0) {
 				showText = false;
 			} else {
-				self.gameObject.transform.localScale *= (Mathf.Max(activesStart - activesLeft, 1) * 1.01f);
+				current.transform.localScale *= 1.01f;
 			}
-			activesStart--;
+			activesLeft--;
 		}
 	}
 }
