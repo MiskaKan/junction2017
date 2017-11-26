@@ -16,7 +16,6 @@ public class Plane : MonoBehaviour {
 
     void OnTriggerEnter (Collider other) {
 		if (other.gameObject.tag == "Player") {
-			InfoTextManager.self.displayText (1);
 			PullTextManager.self.gameObject.SetActive (true);
             this.GetComponent<Rigidbody>().velocity = Vector3.zero;
             LevelManager levels = FindObjectOfType(typeof(LevelManager)) as LevelManager;
